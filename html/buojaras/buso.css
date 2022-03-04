@@ -53,6 +53,7 @@ q {
 
 li {
 	margin-bottom: 25px;
+	list-style-image: url('jel.png');
 }
 
 footer{
