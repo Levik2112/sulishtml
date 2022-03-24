@@ -24,5 +24,17 @@
     <li>Két egymás utáni háromszögszám összege négyzetszám.</li>
     </ul>
     <h2>Számítás</h2>
+    <p>n= <input maxlength="2" type="text" id="input"> <input type="button" value="h(n) kiszámítása" onclick="myFunction()">  </p>
+    <script>
+       function myFunction() {
+                n = parseInt(document.getElementById("input").value);
+                eredmeny = (n*(n+1))/2;
+                if (isNaN(eredmeny)) {
+                    alert("Hiba");
+                } else {
+                    alert(eredmeny);
+                }
+            }
+    </script>
 </body>
 </html>

@@ -39,7 +39,7 @@ img.keplet{
 }
 
 .lista li{
-  font-style: normal;
+  font-style: italic;
 }input[type="text"],input[type="number"] 
 {
   width: 30px;
