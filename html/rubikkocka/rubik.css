@@ -6,6 +6,7 @@ body{
   padding: 15px 95px 15px 15px;
   background-image: url(hatterkocka.png);
   color: #443502;
+ 
 }
 
 #cimkep{
@@ -20,6 +21,7 @@ h1{
 p{
   text-align: justify;
   margin: 5px;
+  
 }
 
 
@@ -33,8 +35,16 @@ p{
   font-weight: normal;
   background-color: white;
   font-style: italic;
+  text-decoration-line: none;
+
 }
 
 li{
   font-weight:bold;
+  list-style-type: square;
+ 
+}
+.doltp
+{
+  font-weight: bold;
 }
