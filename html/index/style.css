@@ -1,0 +1,53 @@
+header
+{
+    background-color: antiquewhite;
+}
+nav
+{
+    background-color: aqua;
+}
+.jobbsav
+{
+    background-color: blue;
+}
+.tartalom
+{
+    background-color: blueviolet;
+}
+footer
+{
+    background-color: coral;
+}
+
+
+
+#grid-container
+{
+    display: grid;
+    grid-template-columns: auto;
+}
+/* mobil méret*/
+
+
+/* tablet méret*/
+@media only screen and (min-width:600px)
+{
+    footer{ background-color: green;}
+    
+    #grid-container
+{
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+header{ grid-column: 1 / 3;}
+nav{ grid-column: 1;}
+.jobbsav{ grid-column: 1;}
+.tartalom{ grid-column: 2; grid-row: 2 / 4;}
+footer{ grid-column: 1 / 3;}
+}
+
+/* monitor */
+@media only screen and (min-width:1200px)
+{
+    footer{ background-color: black;}
+}
