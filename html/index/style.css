@@ -1,3 +1,15 @@
+*
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header
+{
+    height: 100px;
+    padding:20px;
+    text-align: right;
+}
+
 header
 {
     background-color: antiquewhite;
