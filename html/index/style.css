@@ -2,12 +2,50 @@
 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+body
+{
+    margin: 0px;
+}
 
 header
 {
     height: 100px;
     padding:20px;
     text-align: right;
+    background-image: url("kepek/erdely.jpg");
+    background-position: center;
+    color: white;
+    
+}
+nav
+{
+    color: gold;
+    padding-left: 50px;
+}
+nav a 
+{
+    color: green;
+    text-decoration: none;
+}
+nav li
+{
+    list-style: none;
+    padding: 10px;
+}
+nav ul
+{
+    padding: 0px;
+}
+nav a:hover li
+{
+    color:black;
+    background-color: white;
+}
+footer
+{
+    text-align: center;
+    min-height: 50px;
+    padding-top: 25px;
 }
 
 header
@@ -62,7 +100,7 @@ footer{ grid-column: 1 / 3;}
 @media only screen and (min-width:1200px)
 {
     
-    footer{ background-color: black;}
+    footer{ background-color: coral;}
     #grid-container
 {
     display: grid;
