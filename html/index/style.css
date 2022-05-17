@@ -49,5 +49,18 @@ footer{ grid-column: 1 / 3;}
 /* monitor */
 @media only screen and (min-width:1200px)
 {
+    
     footer{ background-color: black;}
+    #grid-container
+{
+    display: grid;
+    grid-template-columns: 25% 55% 20%;
+    width: 1200px;
+    margin: auto;
+}
+header{ grid-column: 1 / 4;}
+nav{ grid-column: 1;}
+.jobbsav{ grid-column: 3;}
+.tartalom{ grid-column: 2;}
+footer{ grid-column: 1 / 4;}
 }
