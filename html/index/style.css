@@ -1,12 +1,12 @@
 *
 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white
+    color: white;
+ 
 }
 body
 {
     margin: 0px;
-    
 
 }
 
@@ -143,29 +143,53 @@ footer h3
 }
 
 
-/* monitor */
-@media only screen and (min-width:1200px)
-{
-    
-    footer{ background-color: gray;}
-    #grid-container
-{
-    display: grid;
-    grid-template-columns: 25% 55% 20%;
-    width: 1200px;
-    margin: auto;
-}
-header{ grid-column: 1 / 4;}
-nav{ grid-column: 1;}
-.jobbsav{ grid-column: 3;}
-.tartalom{ grid-column: 2; grid-row: 2;}
-footer{ grid-column: 1 / 4;}
-}
 
-.tartalom picture *
-{
-    max-width: 30%;
-    float: left;
-    margin-right:10px ;
+@media only screen and (min-width: 600px){
+    #grid-container{
+        grid-template-columns: 25% 75%;
+    }
+    header{
+        grid-column: 1/3;
+        background-size: 1200px;
+        background-position-y: 550px;
+    }
+    nav{
+        grid-column: 1;
+    }
+    .jobb-sav{
+        grid-column: 1;
+    }
+    .tartalom{
+        grid-column: 2/3;
+        grid-row: 2/4;
+    }
+    footer{
+        grid-column: 1/3;
+    }
 }
-
+@media only screen and (min-width: 1200px){
+    #grid-container{
+        width: 1200px;
+        grid-template-columns: 15% 60% 25%;
+        margin: auto;
+    }
+    header{
+        grid-column: 1/4;
+        background-size: 1200px;
+        background-position-y: 550px;
+    }
+    nav{
+        grid-column: 1;
+    }
+    .jobb-sav{
+        grid-column: 3/4;
+        border-left: 2px solid steelblue;
+    }
+    .tartalom{
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    footer{
+        grid-column: 1/4;
+    }
+}
