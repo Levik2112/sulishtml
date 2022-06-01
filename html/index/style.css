@@ -1,10 +1,12 @@
 *
 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white
 }
 body
 {
     margin: 0px;
+    
 
 }
 
@@ -26,7 +28,7 @@ nav
 }
 nav a 
 {
-    color: green;
+    color: white;
     text-decoration: none;
 }
 nav li
@@ -37,11 +39,16 @@ nav li
 nav ul
 {
     padding: 0px;
+    color: white    ;
 }
 nav a:hover li
 {
     color:black;
     background-color: white;
+}
+nav h3
+{
+    color: white;
 }
 footer
 {
@@ -49,32 +56,55 @@ footer
     min-height: 50px;
     padding-top: 25px;
 }
+.jobbsav
+{
+    color: white;
+}
 .infobox
 {
     margin:10px ;
     padding: 10px;
     border: 2px solid black;
-    background-color: green;
+    background-color: gray;
     border-radius: 20px;
 }
 .infobox h3
 {
+    text-decoration: underline;
     margin: 0px;
     text-align: center;
-    background-color: blanchedalmond;
-    border-bottom: 1px solid black;
 }
 
 .tartalom 
 {
     padding: 15px;
+    color: white;
     
+}
+.tartalom img
+{
+    max-width: 30%;
+    float: left;
+    margin-right:10px ;
 }
 .tartalom h2
 {
     font-family: cursive;
     text-align: center;
     font-variant: small-caps;
+}
+.back
+{
+    text-align: right;
+    color: white;
+    font-size: larger;
+    text-decoration: none;
+}
+.back a:hover
+{
+    color: black;
+    background-color: white;
+    text-decoration: none;
 }
 
 header
@@ -83,19 +113,19 @@ header
 }
 nav
 {
-    background-color: aqua;
+    background-color: black;
 }
 .jobbsav
 {
-    background-color: blue;
+    background-color: black;
 }
 .tartalom
 {
-    background-color: blueviolet;
+    background-color: gray;
 }
 footer
 {
-    background-color: coral;
+    background-color: gray;
 }
 
 
@@ -105,31 +135,19 @@ footer
     display: grid;
     grid-template-columns: auto;
 }
-/* mobil méret*/
-
-
-/* tablet méret*/
-@media only screen and (min-width:600px)
+footer h3
 {
-    footer{ background-color: green;}
-    
-    #grid-container
-{
-    display: grid;
-    grid-template-columns: 25% 75%;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
 }
-header{ grid-column: 1 / 3;}
-nav{ grid-column: 1;}
-.jobbsav{ grid-column: 1;}
-.tartalom{ grid-column: 2; grid-row: 2 / 4;}
-footer{ grid-column: 1 / 3;}
-}
+
 
 /* monitor */
 @media only screen and (min-width:1200px)
 {
     
-    footer{ background-color: coral;}
+    footer{ background-color: gray;}
     #grid-container
 {
     display: grid;
@@ -144,4 +162,10 @@ nav{ grid-column: 1;}
 footer{ grid-column: 1 / 4;}
 }
 
+.tartalom picture *
+{
+    max-width: 30%;
+    float: left;
+    margin-right:10px ;
+}
 
