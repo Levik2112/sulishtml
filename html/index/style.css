@@ -15,7 +15,8 @@ header
     height: 100px;
     padding:20px;
     text-align: right;
-    background-image: url("kepek/erdely.jpg");
+    background-image: url("kepek/final.png");
+    background-attachment: fixed;
     background-position: center;
     color: white;
     
@@ -87,6 +88,10 @@ footer
     float: left;
     margin-right:10px ;
 }
+.deva
+{
+    height: 40%;
+}
 .soba
 {
   
@@ -114,6 +119,15 @@ footer
 .to
 {
     float: left;
+    height: 50%;
+    
+}
+.hat
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 
