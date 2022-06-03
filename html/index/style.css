@@ -90,13 +90,37 @@ footer
 }
 .deva
 {
-    height: 40%;
+    height: 30%;
+}
+.dom
+{
+    height: 30%;
 }
 .soba
 {
   
-    height: 40%;
+    height: 30%;
 }
+
+div.gallery {
+    margin: 5px;
+    border: 2px solid blanchedalmond;
+    float: left;
+    width: auto;
+    height: auto;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid black;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: 100%;
+  }
+
+
+
 .tartalom h2
 {
     font-family: cursive;
@@ -119,7 +143,7 @@ footer
 .to
 {
     float: left;
-    height: 50%;
+    height: 30%;
     
 }
 .hat
