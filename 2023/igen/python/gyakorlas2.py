@@ -9,3 +9,10 @@ for i in range(0,beszam):
     autok.append(input("Kérem a(z)"+ str(i+1)+ ". autó márkát: "))
 
 print(autok)
+
+szo="almafa"
+mgh=["ö","ü","ó","ő","ú","ű","á","é","í","o"]
+if szo[0] in mgh:
+    print("az")
+else:
+    print("a")
