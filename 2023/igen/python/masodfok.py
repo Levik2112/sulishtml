@@ -26,12 +26,16 @@ c = int(input("c="))
 
 #print(math.sqrt(3))
 
+x1=""
+x2=""
 diszkriminans=b*b-4*a*c
 
 if diszkriminans<0:
     print("Nincs megoldás")
 elif diszkriminans==0:
     megoldas=-b /(2*a)
+    x1=megoldas
+    x2=x1
     print("1 megoldás: {}".format(megoldas))
 else:
     x1=(-b+math.sqrt(diszkriminans)) / (2*a)
@@ -45,3 +49,9 @@ else:
 #print(gyok)
     
 print(egyenlet(a,b,c))
+
+#a*(x-x1)*(x-x2)=0
+
+print(a)
+print(x1)
+print(x2)
