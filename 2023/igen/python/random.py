@@ -28,8 +28,20 @@ for e in szamok:
 print()
 print()
 
-print(szamok5)
+#print(szamok5)
 
 
 szamok5=[e for e in szamok5 if e%5==0]
-print(szamok5)
+#print(szamok5)
+
+#167
+#1666
+#hattal ósztható,de 12vel (2*6) nem
+#print(random.randrange(166,1667,2)*6)
+
+#print((random.randint(83,832)*2+1 )* 6)
+
+szavak=["alma","körte","barack","banón","dinnye","szőlő"]
+#random.seed(1)
+print(szavak[random.randint(0,len(szavak)-1)])
+print(random.choice(szavak))
