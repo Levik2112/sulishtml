@@ -11,6 +11,7 @@ print(lista)
 #random=random.randint(minimumErtek,maximumErtek)
 #print(random)
 
-
+legnagyobb=max(lista)
+egyseg=80//legnagyobb
 for e in lista:
-    print(e, "*" * int(e//10))
+    print("*" * int((e*egyseg)))
