@@ -6,3 +6,11 @@ pear körte
 cat macksa
 dog kutya
 horse ló
+hole lyuk
+stream patak
+window ablak
+door ajtó
+desk asztal
+chair szék
+bed ágy
+television tv

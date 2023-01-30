@@ -104,29 +104,29 @@ def menu():
     while beker!="0":
         print("-"*50)
         print("Szótár program\n")
+        print("-"*20)
         print("1: Szavak bevitele")
         print("2: Feleltetés")
         print("0: Kilépés")
         beker=input("Válassz: ")
+     
+
+        if beker=="1":
+            #adatbekérés
+            szavak=sokBeker()
+            filebaIr(szavak)
+        elif beker=="2":
+            #feleltetés   
+            beolvas()
+            lil_A=[]
+            for i in range(10):
+                lil_A.append(kerdez())
+            #print(lil_A)
+
+            print("Az eredmény: {:.0%}".format(lil_A.count(True)/len(lil_A)))
+                        
     
     
-#feleltetés   
-#beolvas()
-#lil_A=[]
-#for i in range(10):
-  #  lil_A.append(kerdez())
-#print(lil_A)
+menu() 
 
-#print("Az eredmény: {:.0%}".format(lil_A.count(True)/len(lil_A)))
-
-
-
-
-
-    
-menu()
-#adatbekérés
-  
-#szavak=sokBeker()
-#filebaIr(szavak)
     
