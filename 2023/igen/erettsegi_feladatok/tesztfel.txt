@@ -1,0 +1,11 @@
+3 6370 Mennyi a Fold atlagos sugara (10 km-re kerekitve)?
+2 5050 Mennyi az elso 100 szam osszege?
+3 3 Mennyi 1000 tizes alapu logaritmusa?
+1 8 Mi az 0, 2, 4, 6, … sorozat kovetkezo tagja?
+3 6437 Hany km hosszu az Amazonas?
+1 2004 Mikor lett Magyarorszag az Europai Unio tagja?
+2 1938 Mikor volt az Anschluss?
+2 120 Mennyi 5 faktorialisa?
+3 9 Hany lakosa volt Magyarorszag legkisebb telepulesenek, Iborfianak, 2012 januar 1-en?
+3 40 Hany predikator szerepel Moldova Gyorgy regenyenek cimeben?
+A feladatsorra összesen 23 pont adható!
