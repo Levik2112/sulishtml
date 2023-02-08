@@ -19,7 +19,7 @@ for e in adatok:
 
 #print(valaszok)
 
-print("2. feladat: A vetélkedőn "+str(len(valaszok))+" versenyző indult!")
+print("2. feladat: A vetélkedőn {} versenyző indult!".format(str(len(valaszok))))
 
 versenyzo=input("3. feladat: A versenyző azonosítója = ")
 
@@ -48,3 +48,13 @@ for sorszam,betu in enumerate(versenyzoValasza):
         print(" ",end="")
 
 print("\t a versenyző helyes válaszai.")
+
+feladat=int(input("5.feladat: A feladat sorszáma = "))
+
+db=0
+for e in valaszok:
+    if e[1][feladat]==helyes[feladat]:
+        db+=1
+
+print("A feladatra {0} fő,a versenyzők {1}-a adott helyes választ!".format(db.db/len(valaszok)))
+    
