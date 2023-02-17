@@ -26,3 +26,5 @@ def haromszogE(haromszogek):
     
 h=ujabb(3)
 haromszogE(h)
+
+#hf:a mintában bevan sorszámozva,megkell csinánli a sorszámozást
