@@ -6,7 +6,8 @@ def oszlopBe(hanyadik):
         oszlop.append(e[hanyadik-1])
 
     return oszlop
-
+def oszlopVissza2(hannyalOszhato):
+    return [e[hannyalOszhato-1::hannyalOszhato] for e in tabla]
 gyumolcsok=["alma","banán","körte","barac","szőlő","licsi","eper"]
 print(f"Ennyi gyümölcs van: {len(gyumolcsok)}")
 print(gyumolcsok[3])
@@ -91,4 +92,30 @@ print(oszlop)
 
 print(oszlopBe(5))
 print(oszlopBe(10))
-        
+
+oszlop=[e[:3] for e in tabla]
+oszlop=[e[4:7] for e in tabla]
+oszlop=[e[1::2] for e in tabla]
+oszlop=[e[3::4] for e in tabla]
+print(oszlop)
+
+#fv hannyal oszthato oszlopok,bekeres azzal oszthato szamokat kell kiiratni
+#print(oszlopVissza2(int(input("Kérek egy számot: "))))
+
+
+
+
+
+oszlop=[[e[2],e[6],e[0]] for e in tabla]
+print(oszlop)
+
+
+
+
+
+
+
+
+
+
+
