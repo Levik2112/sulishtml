@@ -1,5 +1,12 @@
 #Gyakorlás 2023.03.07
 
+def oszlopBe(hanyadik):
+    oszlop=[]
+    for e in tabla:
+        oszlop.append(e[hanyadik-1])
+
+    return oszlop
+
 gyumolcsok=["alma","banán","körte","barac","szőlő","licsi","eper"]
 print(f"Ennyi gyümölcs van: {len(gyumolcsok)}")
 print(gyumolcsok[3])
@@ -67,3 +74,21 @@ masolat=gyumolcsok
 masolat.reverse()
 print(", ".join(masolat))
 print(", ".join(masolat[::-1]))
+
+tabla=[]
+for i in range(20):
+    sor=[]
+    for k in range(10):
+        sor.append((i+1)*(k+1))
+    tabla.append(sor)
+#print(tabla[0])
+oszlop=[]
+for e in tabla:
+    #print(e)
+    oszlop.append(e[0])
+print(oszlop)
+
+
+print(oszlopBe(5))
+print(oszlopBe(10))
+        
