@@ -16,5 +16,10 @@ class auto:
     def duda(self):
         print("Tütü")
 teszt=auto("piros",3,"bmw","e34")
-print(teszt.inditas())
-print(teszt.duda())
+teszt.inditas()
+teszt.duda()
+
+
+class bmw(auto):
+    def __init__(self):
+        super().__init__()
