@@ -22,10 +22,10 @@ class forgato:
         #print(szog)
         
         for betu in self.vonalak:
-            betu=self.eltol(betu,-kozep[0],-kozep[1])
-            betu=self.nagyit(betu,0.5)
-            betu=self.forgat(betu,self.szog)
-            betu=self.eltol(betu,kozep[0],kozep[1])
+            betu=self.eltol(self.betu,-kozep[0],-kozep[1])
+            betu=self.nagyit(self.betu,0.5)
+            betu=self.forgat(self.betu,self.szog)
+            betu=self.eltol(self.betu,kozep[0],kozep[1])
             
             self.canvas.create_line(betu,fill="green",width=1)
           

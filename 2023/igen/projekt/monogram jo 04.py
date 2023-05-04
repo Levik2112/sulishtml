@@ -7,7 +7,7 @@ class forgato:
     canvas=0
     vonalak=[]
     szog=0
-    szogSebesseg=0.5
+    szogSebesseg=0.1
     színek=[]
 
     
@@ -17,7 +17,7 @@ class forgato:
         
         for i,betu in  enumerate (self.vonalak):
             betu += betu[:2]
-            betu = self.nagyit(betu,2)
+            betu = self.nagyit(betu,1)
             self.vonalak[i] = self.eltol(betu,200,200)
 
         self.kozepSzamol()
@@ -35,7 +35,11 @@ class forgato:
             betu=self.eltol(betu,self.kozep[0],self.kozep[1])
             #kirajzol
             self.canvas.create_line(betu, fill=self.színek[i], width=5)
-            
+
+
+    def rajzol2(self):
+        pass
+        
     def eltol(self,pontok, x, y):
         vissza = []
         for e, pont in enumerate(pontok):
