@@ -1,47 +1,50 @@
+body {
+    background-color: snow;
+}
 
-.container, footer, header {
+#tartalom, header, footer, nav, table{
     padding: 20px;
-    border-left: 1px solid burlywood;
-    border-right: 1px solid burlywood;
-}
-header {
-    border-bottom: 1px solid burlywood;
-}
-
-p {
-    line-height: 150%;
-    text-indent: 30px;
-}
-
-section{
     margin: 10px;
+    border: 1px solid steelblue;
+    
 }
 
-table {
-    width: 100%;
+h1 {
+    color:steelblue;
 }
 
-tr:nth-child(odd) {
-    background-color: burlywood;
-}
-
-th {
-    width: 20%;
-}
-
-td {
+h2 {
+    border-bottom: 1px solid steelblue;
+    width: 60%;
     padding: 10px;
-    border: 1px solid burlywood;
+    color:steelblue;
 }
 
 img {
-    margin-bottom: 15px;
     width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid steelblue;
 }
 
-footer {
+.foto {
+    float: right;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid steelblue;
+}
+
+.kepalairas {
     text-align: center;
-    border-top: 1px solid burlywood;
+    font-style: italic;
+    font-size: smaller;
+    line-height: 0em;
+    text-indent: 0px;
 }
 
+a {
+    color:steelblue;
+}
 
+a:hover {
+    color:navy;
+}
