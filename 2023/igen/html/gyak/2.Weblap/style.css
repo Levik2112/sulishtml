@@ -3,13 +3,14 @@ body{
 	box-sizing: border-box;
 }
 .doboz {
-    border: 2px solid rgb(86, 86, 86);
+    border: 2px solid #565656;
     border-radius: 15px;
+    background-color: rgb(210, 237, 250);
 }
 
 
 .lablec a {
-    color: #f00;
+    color: #000;
     font-weight: bold;
     text-decoration: none;
 }
@@ -17,4 +18,14 @@ body{
 .lablec a:hover {
     font-style: italic;
     text-decoration: none;
+    color: black;
+}
+
+p{
+    text-align: justify;
+}
+.doboz table{
+    border: 2px solid #565656;
+    border-radius: 15px;
+    background-color: rgb(210, 237, 250);
 }

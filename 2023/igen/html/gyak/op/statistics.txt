@@ -1,0 +1,17 @@
+<!-- Shanks -->
+							
+<!-- Marshall D. Teach -->
+							
+<!-- Monkey D. Luffy -->
+							
+<!-- Buggy -->
+<!-- Charlotte Linlin -->
+							
+<!-- Kaidou -->
+							
+<!-- Edward Newgate -->
+							<tr><th>Name:</th><td>Edward Newgate</td></tr>
+							<tr><th>Crew:</th><td>Whitebeard Pirates</td></tr>
+							<tr><th>Origin:</th><td>Grand Line</td></tr>
+							<tr><th>Status:</th><td>Deceased</td></tr>
+

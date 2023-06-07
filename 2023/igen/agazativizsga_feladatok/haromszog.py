@@ -8,5 +8,7 @@ def haromszog():
             except:
                 print("Ez nem egy egész szám!")
         vissza.append(szam)
+    print(vissza)
     return vissza
-        
+       
+haromszog()
